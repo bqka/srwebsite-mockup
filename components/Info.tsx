@@ -12,7 +12,7 @@ export interface InfoType {
 
 const Info = () => {
   return (
-    <section className={`text-white ${styles.boxWidth}`}>
+    <section className={`text-white ${styles.boxWidth} flex flex-col gap-8`}>
       {info.map((item: InfoType, index: number) => (
         <div className={`flex ${item.id === 'info-1' ? 'flex-row' : `flex-row-reverse`}`}>
           <div className={`w-[520px] flex flex-col gap-2`}>

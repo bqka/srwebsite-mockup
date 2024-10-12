@@ -2,7 +2,7 @@ import styles from '@/styles/styles'
 import React from 'react'
 import { BackgroundBeams } from './ui/background-beams'
 import Image from 'next/image'
-import srtitle from  '@/public/assets/fontbolt.png'
+import srtitle from  '@/public/assets/srtitle.png'
 
 const Hero = () => {
   return (
